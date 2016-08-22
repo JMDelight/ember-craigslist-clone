@@ -1,1 +1,7 @@
-{{outlet}}
+<h1>Welcome to BobsList</h1>
+
+<h3>Categories</h3>
+{{log model}}
+{{#each model as |category|}}
+  <h4>{{#link-to 'category' category.id}}{{category.name}}{{/link-to}}</h4>
+{{/each}}

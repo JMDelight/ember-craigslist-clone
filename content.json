@@ -1,0 +1,78 @@
+{
+  "categories" : {
+    "sale_category1" : {
+      "name" : "Music For Sale",
+      "listings" : {
+        "music1" : true,
+        "music2" : true,
+        "music3" : true
+      }
+    },
+    "sale_category2" : {
+      "name" : "Cars For Sale",
+      "listings" : {
+        "car1" : true
+      }
+    },
+    "sale_category3" : {
+      "name" : "Houses For Sale",
+      "listings" : {
+
+      }
+    },
+    "rental_category1" : {
+      "name" : "Houses For Rent",
+      "listings" : {
+
+      }
+    },
+    "job_category1" : {
+      "name" : "Programming Jobs",
+      "listings" : {
+
+      }
+    },
+    "job_category2" : {
+      "name" : "Retail Jobs",
+      "listings" : {
+
+      }
+    },
+    "job_category3" : {
+      "name" : "Food Service Jobs",
+      "listings" : {
+
+      }
+    }
+  },
+  "listings" : {
+    "music1" : {
+      "title" : "Bass Flute",
+      "content" : "Nice Bass Flute, asking $500.",
+      "timestamp" : 1471881302,
+      "username" : "Bass Man Jones",
+      "category" : "sale_category1"
+    },
+    "music2" : {
+      "title" : "Ukelele",
+      "content" : "Hand-crafted, asking $5000.",
+      "timestamp" : 1471861302,
+      "username" : "Mr. Woodworth",
+      "category" : "sale_category1"
+    },
+    "music3" : {
+      "title" : "Bass fish Theramin",
+      "content" : "Made a theramin to look like a fish... Asking $230, or a good ham sandwich.",
+      "timestamp" : 1471881202,
+      "username" : "Bass Man Jones",
+      "category" : "sale_category1"
+    },
+    "car1" : {
+      "title" : "Bass fish Jeep",
+      "content" : "Bass Jeep is Best Jeep, $1500, OBO",
+      "timestamp" : 1471881202,
+      "username" : "Bass Man Jones",
+      "category" : "sale_category2"
+    }
+  }
+}
