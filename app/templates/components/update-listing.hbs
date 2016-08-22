@@ -1,1 +1,11 @@
-{{yield}}
+{{#if updateListing}}
+  <label>Title: </label>
+  {{input value=listing.title}}
+  <label>Content: </label>
+  {{input value=listing.content}}
+  <label>Username: </label>
+  {{input value=listing.username}}
+  <button {{action 'saveUpdatedListing' listing}}>Save!</button>
+{{else}}
+  <button {{action 'updateListingShow'}}>Update</button>
+{{/if}}  

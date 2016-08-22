@@ -1,1 +1,7 @@
-{{yield}}
+{{#if addCategory}}
+  <label>New Category Name</label>
+  {{input value=name}}
+  <button {{action 'saveCategory'}}>Save</button>
+{{else}}
+  <button {{action 'addCategoryShow'}}>Add New Category</button>
+{{/if}}
