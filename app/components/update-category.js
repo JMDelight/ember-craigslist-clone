@@ -8,9 +8,7 @@ export default Ember.Component.extend({
     },
     saveUpdatedCategory(category) {
       category.save();
-      console.log(category);
       this.set('updateCategory', false);
-
     }
   }
 });
